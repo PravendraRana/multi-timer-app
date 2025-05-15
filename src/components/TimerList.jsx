@@ -64,7 +64,7 @@ export default function TimerList({
             onClick={() => toggleCategoryExpand(category)}
           >
             <div className="flex items-center gap-2 font-medium">
-              <span>{category}</span>
+              <span className="text-bold text-gray-500">{category}</span>
               <span className="text-sm text-gray-500">({timersByCategory[category]?.length || 0})</span>
             </div>
             <div className="flex gap-2">
