@@ -67,7 +67,7 @@ export default function AddTimerModal({
               value={newTimer.name}
               onChange={(e) => setNewTimer({ ...newTimer, name: e.target.value })}
               placeholder="e.g., Workout Timer"
-              className="w-full border rounded-lg p-2"
+              className="w-full border rounded-lg p-2 text-gray-700 bg-white"
             />
           </div>
 
@@ -78,7 +78,7 @@ export default function AddTimerModal({
               value={newTimer.duration}
               onChange={(e) => setNewTimer({ ...newTimer, duration: e.target.value })}
               min="1"
-              className="w-full border rounded-lg p-2"
+              className="w-full border rounded-lg p-2 text-gray-700 bg-white"
             />
           </div>
 
@@ -89,7 +89,7 @@ export default function AddTimerModal({
               value={newTimer.category}
               onChange={(e) => setNewTimer({ ...newTimer, category: e.target.value })}
               placeholder="e.g., Workout"
-              className="w-full border rounded-lg p-2"
+              className="w-full border rounded-lg p-2 text-gray-700 bg-white"
             />
           </div>
 
